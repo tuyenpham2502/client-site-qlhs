@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo 'Setting up permission ...'
                 sh 'chmod +x ./build.sh'
-                sh 'shmod +x /usr/local/bin/docker-entrypoint.sh'
+                sh 'chmod +x /usr/local/bin/docker-entrypoint.sh'
                 sh 'ls -l'
             }
         }
