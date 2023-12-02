@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "env-cmd -f src/.env.development next dev -p 4000",
+    "build:dev": "env-cmd -f src/.env.development next build",
+    "start:dev": "next start -p 17012",
     "lint": "next lint"
   },
   "dependencies": {
+    "env-cmd": "^10.1.0",
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "typescript": "^5",
