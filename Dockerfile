@@ -1,6 +1,7 @@
 FROM node:14-buster
 FROM imbios/bun-node:18-slim AS deps
 ARG DEBIAN_FRONTEND=noninteractive
+RUN ["chmod", "+x", "/usr/local/bin/docker-entrypoint.sh"]
 EXPOSE 17012
 
 WORKDIR /app
