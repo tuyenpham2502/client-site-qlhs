@@ -3,7 +3,13 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <meta charSet='utf-8' />
+        <meta name="application-name" content="PWA App" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel='icon' type='image/png' href='/images/favicon.png' />
+        <link rel='icon' href='/images/logo.png' />
+        </Head>
       <body>
         <Main />
         <NextScript />
@@ -11,3 +17,4 @@ export default function Document() {
     </Html>
   )
 }
+    

@@ -1,0 +1,40 @@
+.bars {
+    width: 50.4px;
+    height: 50.4px;
+    --c: linear-gradient(#474bff 0 0);
+    background: var(--c) 0 0,
+        var(--c) 50% 50%,
+        var(--c) 100% 100%;
+    background-repeat: no-repeat;
+    animation: bars-ed8ugkmd 1s infinite alternate;
+}
+
+@keyframes bars-ed8ugkmd {
+
+    0%,
+    10% {
+        background-size: 10.1px 100%;
+    }
+
+    50% {
+        background-size: 10.1px 10.1px;
+    }
+
+    90%,
+    100% {
+        background-size: 100% 10.1px;
+    }
+}
+
+.full_page_loading {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    z-index: 99999;
+}

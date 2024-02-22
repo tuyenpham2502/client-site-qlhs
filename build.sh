@@ -27,7 +27,7 @@ case "$env" in
   production)
     export env=prod
     export COMPOSE_PROJECT_NAME="qlhs-prod-biz-services"
-    export command='yarn run:prod'
+    export command='bun run start:prod'
     source ~/.zshrc
     ;;
 #   uat)
