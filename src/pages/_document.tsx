@@ -7,8 +7,17 @@ export default function Document() {
         <meta charSet='utf-8' />
         <meta name="application-name" content="PWA App" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel='icon' type='image/png' href='/images/favicon.png' />
-        <link rel='icon' href='/images/logo.png' />
+        <link rel='image' href='/images/logo.png' />
+        <link ref='icon' href='icons/search.svg' />
+        <link rel='icon' href='/icons/sign-in.svg' />
+        <link rel='icon' href='/icons/dot.svg' />
+        <link rel='icon' href='/icons/menu.svg' />
+        <link rel='icon' href='/icons/delete.svg' />
+        <link rel='icon' href='/icons/facebook.svg' />
+        <link rel='icon' href='/icons/twitter.svg' />
+        <link rel='icon' href='/icons/instagram.svg' />
+
+        <link rel='icon' href='/favicon.png' />
         </Head>
       <body>
         <Main />
