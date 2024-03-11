@@ -11,6 +11,29 @@ const MainLayout = ({ children }) => {
             {/* Content */}
             <Box flex="1" p={4} overflowY={"auto"}>
                 {children}
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+                <Box h={20}></Box>
+
             </Box>
             {/* Footer */}
             <Footer />
